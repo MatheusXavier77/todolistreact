@@ -1,0 +1,104 @@
+.MyTaskListMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* Adicione esta linha para centralizar verticalmente */
+}
+  .NewListItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 4px 0;
+  }
+
+  .NewItemActions {
+    display: flex;
+    align-items: center;
+  }
+
+  .NewAppMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .NewAppMain h1 {
+    margin: 0;
+    font: 2rem;
+    font-family: 'Archivo', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  html {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,22,9,1) 53%, rgba(213,36,20,1) 100%, rgba(0,212,255,1) 100%);
+  }
+  ul {
+      list-style-type: none;
+      width: 50%;
+      overflow: hidden;
+      word-wrap: break-word;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  }
+  
+
+  li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .NewAppMain input {
+    width: 100%;
+    max-width: 18vw;
+    height: auto;
+    min-height: 4vh;
+    margin: 2% 0;
+  }
+
+  .NewAppMain > button {
+    width: 100%;
+    max-width: 15vw;
+    height: auto;
+    min-height: 4vh;
+    max-height: 10vh;
+    font: 1em sans-serif;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 0.4rem;
+    font-family: 'Archivo', sans-serif;
+  }
+
+  .trash-btn {
+    width: 10px;
+    background: red;
+  }
+
+  .NewButtonTrash {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 10px; /* Espaçamento entre o botão e o checkbox */
+  }
+
+  .NewButtonCheckBox {
+    width: 5rem;
+    height: 2rem;
+  }
+
+  .NewTrashIcon {
+    font-size: 1.2rem;
+  }
